@@ -132,3 +132,9 @@ i{
     color:#999;
     font-size: inherit;
 }
+@media (max-width:700px) {
+    .card-container{
+        padding: 0px;
+    }
+    
+}

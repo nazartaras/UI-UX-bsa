@@ -19,11 +19,11 @@ ul li:before {
 }
 
 .card-container{
-    height: 100vh;
     padding: 1em;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(425px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
     grid-gap: 1em;
+    justify-content: space-between;
 }
 .card-item{
     border: 2px solid #666;

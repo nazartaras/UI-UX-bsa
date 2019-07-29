@@ -103,6 +103,7 @@ ul li:before {
     border-bottom: 1px solid black;
     margin-top: .5em;
     flex-grow: 1;
+    padding: 0.2em;
 }
 i{
     margin-right: 5px;
@@ -115,7 +116,7 @@ i{
     color: #f4f4f4;
     font-size: 2em;
 }
-.card:hover{
+.card-item:hover{
     transform: scale(1.05);
 }
 .buttons-wrp{
